@@ -54,7 +54,7 @@ public class AudioRecording {
 //            mRecorder.start();
 //            mStartingTimeMillis = System.currentTimeMillis();
             //........saving to mem
-            outputFile = Environment.getExternalStorageDirectory().getAbsolutePath() + "/recording.3gp";
+            outputFile = Environment.getExternalStorageDirectory().getAbsolutePath() + "/bhuuuuurecording.3gp";
             mRecorder = new MediaRecorder();
             mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
             mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
